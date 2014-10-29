@@ -30,7 +30,7 @@ public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
 
 	public CoolWeatherOpenHelper(Context context, String name,
 			CursorFactory factory, int version) {
-		super(context, name, factory, version);
+		super(context, name, factory, version);	
 	}
 
 	@Override
